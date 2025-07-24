@@ -10,7 +10,9 @@ namespace Projeto1
         public void Test1()
         {
             // Arrange: abrir o navegador com o ChromeDriver
-            using IWebDriver driver = new ChromeDriver();
+
+            new DriverManager().SetUpDriver(new ChromeConfig());
+            IWebDriver driver = new ChromeDriver();
 
             // Act: navegar para o site da Caelum
             driver.Navigate().GoToUrl("https://www.caelum.com.br");
