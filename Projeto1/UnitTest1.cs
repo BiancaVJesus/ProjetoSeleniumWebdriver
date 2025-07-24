@@ -1,6 +1,13 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using Xunit;
+
+
 
 namespace Projeto1
 {
